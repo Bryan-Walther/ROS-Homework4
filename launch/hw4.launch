@@ -1,0 +1,7 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+
+    <node name="input_xy_node" pkg="Homework4" type="input_xy_node"
+          output="screen" launch-prefix="gnome-terminal -e" /> 
+    <node name="go2xy_node" pkg="Homework4" type="go2xy_node"/>
+</launch>
